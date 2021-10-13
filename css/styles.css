@@ -23,6 +23,21 @@ li {
   color: #0051ff;
 }
 
+.container {
+  display: block;
+}
+
+.albumcontainer {
+  display: block;
+}
+
+.albumcovers {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+  }
 .sidebar {
   border: 5px solid blue;
   margin: 5px;
@@ -40,11 +55,8 @@ li {
   color:#0648d7;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-}
 .members {
+  text-align: center;
   width: 300px;  
   text-align: center;
 }
@@ -67,6 +79,8 @@ li {
   margin: 20px;
   float: left;
 }
+
+
 
 .color1 {color: #0d2471;}
 .color2 {color: #0648d7;}
