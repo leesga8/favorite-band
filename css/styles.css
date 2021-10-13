@@ -1,26 +1,44 @@
 body {
   background-color:#fffcb9;
-  text-align: center;
+  text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-size: larger;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
 }
 
 h1 {
   color: #0d2471;
   text-decoration: underline;
+  text-align: center;
 }
 
 h2 {
-  color: #0648d7;
+  color: darkmagenta;
   text-decoration: underline;
 }
 
 li {
-  margin: auto;
-  width: 5%;
-  padding: 1em;
+  list-style-type:none;
 }
 
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: #eee30b;
+  text-align: center;
+}
+
+.names {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color:#0648d7;
+}
+
+.members {
+  width: 300px;  
+}
 .color1 {color: #0d2471;}
 .color2 {color: #0648d7;}
 .color3 {color: #07e4ff;}
