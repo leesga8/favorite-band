@@ -24,6 +24,9 @@ li {
 }
 
 .sidebar {
+  border: 5px solid blue;
+  margin: 5px;
+  border-radius: 1em;
   width: 30%;
   float: right;
   background-color: #eee30b;
@@ -61,6 +64,7 @@ li {
 .column {
   width: 300px;
   padding: 10px;
+  margin: 20px;
   float: left;
 }
 
