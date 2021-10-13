@@ -20,6 +20,7 @@ h2 {
 
 li {
   list-style-type:none;
+  color: #0051ff;
 }
 
 .sidebar {
@@ -36,9 +37,33 @@ li {
   color:#0648d7;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
 .members {
   width: 300px;  
+  text-align: center;
 }
+
+.albums {
+  text-align: center;
+}
+
+.members {
+}
+
+.picture {
+  width: 10px;
+  height: auto;
+}
+
+.column {
+  width: 300px;
+  padding: 10px;
+  float: left;
+}
+
 .color1 {color: #0d2471;}
 .color2 {color: #0648d7;}
 .color3 {color: #07e4ff;}
